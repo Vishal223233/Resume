@@ -5,7 +5,7 @@ const Certifications = () => {
         <section>
             <h2>Certifications</h2>
             <ul>
-                <li>Microsoft Azure Fundamentals (AZ-900)</li>
+                <li>Microsoft Azure Fundamentals (AZ-900) (2020)</li>
             </ul>
         </section>
     );

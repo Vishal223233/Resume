@@ -4,10 +4,43 @@ const Experience = () => {
     return (
         <section>
             <h2>Professional Experience</h2>
+            {/* Western Governors University */}
+            <h3>Full Stack Engineer - Western Governors University</h3>
+            <p>Dallas, TX | 12/2024 – Present</p>
+            <ul>
+                <li>
+                    <strong>Financial Aid Application Modernization and Microfrontend Integration:</strong>
+                    Developed a comprehensive system managing student payment options, questionnaires, and task workflows. Integrated the application as a microfrontend (MFE) within the existing student service portal to streamline the financial aid process and improve user experience.
+                </li>
+                <li>
+                    <strong>Advanced Front-End Development with Angular and Tailwind CSS:</strong>
+                    Built dynamic Angular components using NgRx for state management and integrated Tailwind CSS to ensure responsive and accessible UI design, aligning with modern frontend development standards.
+                </li>
+                <li>
+                    <strong>Authentication and Secure Access Management:</strong>
+                    Implemented secure authentication using PingFederate and angular-oauth-oidc, enabling seamless single sign-on (SSO).
+                </li>
+                <li>
+                    <strong>Centralized Error Handling Architecture:</strong>
+                    Designed and developed HTTP interceptors to handle errors globally, eliminating redundant logic across components and significantly improving application maintainability and consistency.
+                </li>
+                <li>
+                    <strong>Backend API Development in Spring Boot:</strong>
+                    Developed scalable and high-performance RESTful APIs in Spring Boot to support key business functionalities. Implemented proper exception handling and service layering to enhance backend efficiency.
+                </li>
+                <li>
+                    <strong>Containerized Cloud Deployments on AWS ECS:</strong>
+                    Deployed backend services as containers on Amazon ECS and integrated with supporting services such as API Gateway, Parameter Store, Load Balancers, S3, and CloudFront for secure and scalable delivery.
+                </li>
+                <li>
+                    <strong>Testing Strategy and Code Coverage:</strong>
+                    Wrote and maintained unit tests using Jest for Angular components, achieving 80% code coverage and ensuring robustness and reliability across the application.
+                </li>
+            </ul>
 
             {/* ENSCO */}
-            <h3>Software Developer - ENSCO</h3>
-            <p>Charlottesville, VA | 06/2021 - Present</p>
+            <h3>Software Engineer - ENSCO</h3>
+            <p>Charlottesville, VA | 06/2021 - 11/2024</p>
             <ul>
                 <li>
                     <strong>Full SDLC Ownership and Agile Leadership:</strong>
@@ -21,7 +54,7 @@ const Experience = () => {
 
                 <li>
                     <strong>Redesign with WSDG 3.0 Standards:</strong>
-                    Redesigned the CWRSAFE and Federal Railroad applications based on WSDG 3.0 standards, implementing a user-centered interface and ensuring compliance with US government accessibility standards. Refactoring the UI with Angular and Tailwind CSS led to a cleaner, responsive design, reducing user onboarding time by 20%.
+                    Redesigned the CWRSAFE and Federal Railroad applications based on WSDG 3.0 standards, implementing a user-centered interface and ensuring compliance with US government accessibility standards. Refactoring the UI with Angular and Tailwind CSS led to a cleaner, responsive design.
                 </li>
 
                 <li>
@@ -51,7 +84,7 @@ const Experience = () => {
             </ul>
 
             {/* SHAZAM Network */}
-            <h3>Software Developer - SHAZAM Network</h3>
+            <h3>Software Engineer - SHAZAM Network</h3>
             <p>Charlotte, NC | 11/2020 - 05/2021</p>
             <ul>
                 <li>
@@ -81,7 +114,7 @@ const Experience = () => {
             </ul>
 
             {/* People Tech Group Inc */}
-            <h3>Software Developer Intern - People Tech Group Inc</h3>
+            <h3>Software Engineer Intern - People Tech Group Inc</h3>
             <p>Hyderabad, India | 06/2018 - 06/2019</p>
             <ul>
                 <li>
